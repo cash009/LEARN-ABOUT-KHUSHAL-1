@@ -1,0 +1,121 @@
+*{
+margin:0;
+padding:0;
+
+}
+.logo{
+
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.navbar{
+display: flex;
+position: sticky;
+top: 0;
+
+cursor: pointer;
+}
+.navlist{
+display: flex;
+    width: 50%
+    ; 
+    align-items: center;
+
+
+}
+.navlist li{
+list-style-type: none;
+padding: 26px 30px;
+}
+.navlist li a:hover{
+color: white;
+    text-decoration: none;
+    color: grey;
+
+}.navlist li a{
+    color: white;
+       text-decoration: none;
+       list-style-type: style none;
+}
+.rightnav{
+width: 50%
+;
+ padding-right: 0.20px;
+    text-align: right;
+  align-content: center
+  ;
+}
+#search{
+padding: 5px;
+font-size: 2px solid grey;
+border-radius: 9px;
+}
+.background{
+
+    background: rgba(0, 0, 0, 0.7)url("img/fgfg.jpg");
+    background-size: cover;
+    background-blend-mode: darken;}
+.firstsection{
+    height: 100vh;
+
+}
+
+.boxmain{
+
+ display: flex;
+ justify-content: center;
+align-items: center;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+max-width: 50%;
+height: 80%;
+
+margin: auto;
+}
+.firsthalf{
+display: flex;
+width: 65%;
+justify-content: center;
+flex-direction: column;
+}
+
+.secondhalf{
+
+    width: 30%;
+
+}
+.secondhalf img{
+width: 170%;
+border: 4px solid white;
+border-radius: 300px;
+margin: auto;
+display: block;
+}
+
+.text-big{
+font-size: 41px;
+
+}
+
+.text-small{
+
+    font-size: 18px;
+}
+
+.btn{
+padding: 8px 20px;
+margin: 7px 5px;
+border: 2px solid white;
+border-radius: 8px;
+background: none;
+color: white;
+cursor: pointer;
+}
+
